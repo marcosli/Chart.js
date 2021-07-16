@@ -1,26 +1,36 @@
-# Chart.js
+<p align="center">
+    <img src="https://www.chartjs.org/media/logo-title.svg"><br/>
+    Simple yet flexible JavaScript charting for designers & developers
+</p>
 
-*Simple HTML5 Charts using the canvas element* [chartjs.org](http://www.chartjs.org)
+<p align="center">
+    <a href="https://www.chartjs.org/docs/latest/getting-started/installation.html"><img src="https://img.shields.io/github/release/chartjs/Chart.js.svg?style=flat-square&maxAge=600" alt="Downloads"></a>
+    <a href="https://github.com/chartjs/Chart.js/actions?query=workflow%3ACI+branch%3Amaster"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/chartjs/Chart.js/CI"></a>
+    <a href="https://coveralls.io/github/chartjs/Chart.js?branch=master"><img src="https://img.shields.io/coveralls/chartjs/Chart.js.svg?style=flat-square&maxAge=600" alt="Coverage"></a>
+    <a href="https://github.com/chartjs/awesome"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+    <a href="https://chartjs-slack.herokuapp.com/"><img src="https://img.shields.io/badge/slack-chartjs-blue.svg?style=flat-square&maxAge=3600" alt="Slack"></a>
+</p>
 
 ## Documentation
 
-You can find documentation at [chartjs.org/docs](http://www.chartjs.org/docs). The markdown files that build the site are available under `/docs`. Please note - in some of the json examples of configuration you might notice some liquid tags - this is just for the generating the site html, please disregard.
+All the links point to the new version 3 of the lib.
+
+* [Introduction](https://www.chartjs.org/docs/latest/)
+* [Getting Started](https://www.chartjs.org/docs/latest/getting-started/index)
+* [General](https://www.chartjs.org/docs/latest/general/data-structures)
+* [Configuration](https://www.chartjs.org/docs/latest/configuration/index)
+* [Charts](https://www.chartjs.org/docs/latest/charts/line)
+* [Axes](https://www.chartjs.org/docs/latest/axes/index)
+* [Developers](https://www.chartjs.org/docs/latest/developers/index)
+* [Popular Extensions](https://github.com/chartjs/awesome)
+* [Samples](https://www.chartjs.org/samples/)
+
+In case you are looking for the docs of version 2, you will have to specify the specific version in the url like this: [https://www.chartjs.org/docs/2.9.4/](https://www.chartjs.org/docs/2.9.4/)
+
+## Contributing
+
+Instructions on building and testing Chart.js can be found in [the documentation](https://www.chartjs.org/docs/master/developers/contributing.html#building-and-testing). Before submitting an issue or a pull request, please take a moment to look over the [contributing guidelines](https://www.chartjs.org/docs/master/developers/contributing) first. For support, please post questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/chartjs) with the `chartjs` tag.
 
 ## License
 
-Chart.js is available under the [MIT license](http://opensource.org/licenses/MIT).
-
-## Bugs & issues
-
-When reporting bugs or issues, if you could include a link to a simple [jsbin](http://jsbin.com) or similar demonstrating the issue, that'd be really helpful.
-
-
-## Contributing
-New contributions to the library are welcome, just a couple of guidelines:
-
-- Tabs for indentation, not spaces please.
-- Please ensure you're changing the individual files in `/src`, not the concatenated output in the `Chart.js` file in the root of the repo.
-- Please check that your code will pass `jshint` code standards, `gulp jshint` will run this for you.
-- Please keep pull requests concise, and document new functionality in the relevant `.md` file.
-- Consider whether your changes are useful for all users, or if creating a Chart.js extension would be more appropriate.
-- Please avoid committing in the build Chart.js & Chart.min.js file, as it causes conflicts when merging.
+Chart.js is available under the [MIT license](https://opensource.org/licenses/MIT).
